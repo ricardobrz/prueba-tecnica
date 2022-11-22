@@ -1,0 +1,24 @@
+@import '../../theme.scss';
+
+.component__dashboard {
+	padding: 30px;
+	display: flex;
+	justify-content: center;
+
+	.container-home {
+		width: 560px;
+	}
+
+	.container-list {
+		margin-top: 20px;
+	}
+
+	.loading-info {
+		height: 100vh;
+	}
+
+	.validation-error-message {
+		color: $validate-error;
+		margin-top: 5px
+	}
+}

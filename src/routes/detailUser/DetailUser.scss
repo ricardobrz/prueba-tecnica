@@ -1,0 +1,28 @@
+@import '../../theme.scss';
+
+.component__user-detail {
+	height: 100vh;
+	padding: 30px;
+	display: flex;
+	justify-content: center;
+
+	.container-list {
+		margin-top: 20px;
+	}
+
+	.container-info-user {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		width: 550px;
+	}
+
+	.center-image {
+		display: flex;
+		justify-content: center;
+		margin-top: 10px;
+	}
+
+	.container-user-description {
+		margin-top: 10px;
+	}
+}

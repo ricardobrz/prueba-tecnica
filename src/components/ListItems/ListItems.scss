@@ -1,0 +1,52 @@
+@import '../../theme.scss';
+
+.component__list-items {
+  list-style: none;
+  padding: 0;
+  position: relative;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 100%;
+  width: 560px;
+  background-color: $background-list;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $hover-background-list;
+  }
+
+  .container-info-user {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+    text-decoration: none;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: left;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .split {
+    margin: 0;
+    flex-shrink: 0;
+    border-width: 0;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.12);
+    border-bottom-width: thin;
+  }
+
+  .text-info {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .center-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+  }
+}
